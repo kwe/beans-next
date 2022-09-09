@@ -9,5 +9,6 @@ export default NextAuth({
             clientSecret: process.env.COGNITO_SECRET,
             issuer: process.env.COGNITO_URL,
         })
-    ]
+    ],
+    debug: true,
 })
